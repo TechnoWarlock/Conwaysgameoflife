@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4b9ad3a672146ddb4847fef18aff042, type: 3}
+  m_Name: RectCellConfiguration
+  m_EditorClassIdentifier: 
+  maxSurvivalLife: 4
+  minSurvivalLife: 3
+  birthLimit: -2
+  tiles:
+  - {fileID: 11400000, guid: 5e7347a390e81714b8ffb5256cd4f914, type: 2}
+  - {fileID: 11400000, guid: fe8788e64247e094f8826ef251a68f1c, type: 2}
+  - {fileID: 11400000, guid: 98ddf113010979946ac465c70cda79a9, type: 2}
+  - {fileID: 11400000, guid: 8264f886102e9924daf53b1a67215440, type: 2}
+  previewTile: {fileID: 11400000, guid: 33ae160ec87afb648a51b5cc627b53e2, type: 2}
+  icon: {fileID: 2800000, guid: af8d3eddb36ac734cbce1cecf044e498, type: 3}

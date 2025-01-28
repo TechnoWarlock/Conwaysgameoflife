@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/Scripts/Menu/Menu.uss?fileID=7433441132597879392&amp;guid=b77632f7560ccd344826f5a532a3d8e4&amp;type=3#Menu" />
+    <engine:VisualElement name="MainContent" class="main-content" style="flex-grow: 1; flex-direction: row;">
+        <engine:Button text="HexMode" name="Mode" class="btn letter" style="background-image: url(&quot;project://database/Assets/_Project/Art/Cells.png?fileID=555682806&amp;guid=c35ee95394571ae4f9c746f548f0a27c&amp;type=3#a_2&quot;);" />
+        <engine:Button text="Play" name="Play" class="btn letter" style="background-image: url(&quot;project://database/Assets/_Project/Art/Cells.png?fileID=1465786519&amp;guid=c35ee95394571ae4f9c746f548f0a27c&amp;type=3#a_3&quot;);" />
+        <engine:Button text="Reset" name="Reset" class="btn letter" style="background-image: url(&quot;project://database/Assets/_Project/Art/Cells.png?fileID=-1824252962&amp;guid=c35ee95394571ae4f9c746f548f0a27c&amp;type=3#a_4&quot;);" />
+        <engine:Button text="Clear" name="Clear" class="btn letter" style="background-image: url(&quot;project://database/Assets/_Project/Art/Cells.png?fileID=-506886290&amp;guid=c35ee95394571ae4f9c746f548f0a27c&amp;type=3#a_5&quot;);" />
+        <engine:Button text="Step" name="Step" class="btn letter" style="background-image: url(&quot;project://database/Assets/_Project/Art/Cells.png?fileID=1571734261&amp;guid=c35ee95394571ae4f9c746f548f0a27c&amp;type=3#a_14&quot;);" />
+        <engine:VisualElement style="align-items: center;">
+            <engine:Label text="Speed" class="letter" />
+            <engine:Slider label="Speed" value="1" high-value="0" name="Speed" low-value="1" fill="false" class="Speed speed letter" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
